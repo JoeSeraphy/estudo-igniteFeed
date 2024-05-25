@@ -2,7 +2,7 @@ import "./global.css";
 import style from "./App.module.css";
 import { Header } from "./components/Header.tsx";
 import { Sidebar } from "./components/Sidebar.tsx";
-import { PostType } from "./components/Post";
+import { Post, PostType } from "./components/Post";
 
 const posts: PostType[] = [
   {
