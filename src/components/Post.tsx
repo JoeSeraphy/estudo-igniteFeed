@@ -25,6 +25,9 @@ export interface PostType {
 
 export interface PostProps {
   post: PostType;
+  author: Author;
+  publishedAt: Date;
+  content: Content[];
 }
 
 export function Post({ post }: PostProps) {
