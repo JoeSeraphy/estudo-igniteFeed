@@ -3,7 +3,6 @@ import style from "./App.module.css";
 import { Header } from "./components/Header.tsx";
 import { Sidebar } from "./components/Sidebar.tsx";
 import { PostType } from "./components/Post";
-import { Post } from "./components/Post.1.tsx";
 
 const posts: PostType[] = [
   {
